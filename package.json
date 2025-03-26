@@ -1,0 +1,21 @@
+{
+  "name": "db-backup-tool",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.775.0",
+    "@slack/webhook": "^7.0.5",
+    "archiver": "^7.0.1",
+    "commander": "^13.1.0",
+    "cron": "^4.1.0",
+    "dotenv": "^16.4.7",
+    "winston": "^3.17.0"
+  }
+}
